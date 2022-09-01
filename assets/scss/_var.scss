@@ -1,0 +1,44 @@
+@font-face {
+    font-family:Tw Cen MT;
+    src: url(../TCB_____.TTF);
+}
+
+
+// theme colors
+$theme-primary-color:#1f51f5;
+$theme-secondary-color:#e839c6;
+$black-color:#000000;
+$gray-color:#3d3d3d;
+$gray-alt-color:#9c9c9c;
+$light-gray-color:#fafafa;
+$white-color:#fff;
+$theme-gradient-color:linear-gradient(45deg, $theme-secondary-color 15%, $theme-primary-color);
+$theme-gradient-alt-color:radial-gradient( $gray-alt-color 40%, $light-gray-color 60%);
+$theme-line-height:24px;
+$theme-shadow:0 0 10px RGB(0 0 0 / 15%);
+// theme colors
+// theme fonts
+$theme-font:Tw Cen MT;
+$theme-font-weight:bold;
+$h1:55px;
+$h2:45px;
+$h3:32px;
+$h4:18px;
+$html:15px;
+$line-hight:1.6;
+// theme fonts
+// theme margin
+$margin_tb:100px;
+$margin_top_bottom:100px;
+$margin_bottom:50px;
+$padding_top_bottom:100px;
+$padding_tb:50px;
+// theme margin
+$logo-width:80px;
+$full-width:100%;
+$full-height:100%;
+$transform: translate(-50%, -50%);
+$column-gap_10:10px;
+$row-gap_30:30px;
+$row-gap_20:20px;
+$row-gap_45:45px;
